@@ -27,3 +27,4 @@ xufu-*.tar
 
 # Secrets tokens etc
 .env
+/.elixir_ls
