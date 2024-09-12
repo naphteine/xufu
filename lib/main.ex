@@ -1,5 +1,7 @@
 # This file can be placed somewhere in ./lib, and it can be started
-# by running iex -S mix then calling AudioPlayerSupervisor.start_link([]).
+# by running iex -S mix then calling
+# AudioPlayerSupervisor.start_link([])
+
 defmodule AudioPlayerSupervisor do
   use Supervisor
 

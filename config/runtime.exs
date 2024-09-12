@@ -2,12 +2,14 @@ import Config
 
 config :xufu,
   guild_ids: [
-   123456
+    System.get_env("DISCORD_GUILD")
   ]
 
 # Ensure you've set an environment variable called DISCORD_TOKEN with the discord api token you want to use
-config :nostrum, token: "123456"
+config :nostrum, token: System.get_env("DISCORD_TOKEN")
 
 config :logger, :console,
   format: "$time $metadata[$level] $message\n",
   level: :info
+
+config :nostrum, :youtubedl, "yt-dlp"

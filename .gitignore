@@ -27,4 +27,7 @@ xufu-*.tar
 
 # Secrets tokens etc
 .env
+
+# Ignore editor stuff
 /.elixir_ls
+/.vscode
